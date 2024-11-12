@@ -1,0 +1,51 @@
+INFO:utils.model_manager:Initializing ModelManager singleton
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-mpnet-base-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.19it/s]
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 17.86it/s]
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 21.80it/s]
+Pinged your deployment. You successfully connected to MongoDB!
+INFO:utils.log_manager:SYSTEM: Starting Zara autonomous agent
+INFO:utils.log_manager:SYSTEM: Starting goal cycle for Zara
+Starting goal cycle for Zara
+INFO:utils.log_manager:GOAL: Evaluating goals for Zara
+INFO:utils.log_manager:ERROR: Goal cycle error: 'dict' object has no attribute 'status'
+INFO:utils.log_manager:SYSTEM: Checking for new tasks...
+INFO:utils.log_manager:TASK: Created new task: analyze_trends
+INFO:utils.log_manager:TASK: Processing task: analyze_trends
+INFO:utils.log_manager:ACTION: Starting execution of task: analyze_trends
+INFO:utils.log_manager:ACTION: Analyzing current trends...
+INFO:utils.log_manager:TREND: Starting trend analysis
+monitoring truth_terminal
+monitoring luna_virtuals
+monitoring ai16z
+Error fetching tweets: 500
+INFO:agent.twitter_manager:Analyzing batch of 40 tweets
+Batches: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:03<00:00,  1.92s/it]
+INFO:agent.twitter_manager:Found 13 relevant tweets
+ERROR:utils.trend_monitor:Error monitoring trends: 'content_themes'
+INFO:utils.log_manager:TREND: Found trends in digital_culture:
+INFO:utils.log_manager:TREND: Found trends in philosophy:
+INFO:utils.log_manager:TREND: Found trends in technology:
+INFO:utils.log_manager:TREND: Found trends in society:
+INFO:utils.log_manager:ACTION: Trend analysis complete
+INFO:utils.log_manager:TASK: Completed task: 2fdcd4f2-372e-4069-8750-d2784584dca9 with status: completed
+INFO:utils.log_manager:SYSTEM: Checking for new tasks...
+INFO:utils.log_manager:TASK: Processing task: analyze_trends
+INFO:utils.log_manager:ACTION: Starting execution of task: analyze_trends
+INFO:utils.log_manager:ACTION: Analyzing current trends...
+INFO:utils.log_manager:ACTION: Trend analysis complete
+INFO:utils.log_manager:TASK: Completed task: 2fdcd4f2-372e-4069-8750-d2784584dca9 with status: completed
+INFO:utils.log_manager:SYSTEM: Checking for new tasks...
+INFO:utils.log_manager:TASK: Created new task: analyze_trends
+INFO:utils.log_manager:TASK: Processing task: analyze_trends
+INFO:utils.log_manager:ACTION: Starting execution of task: analyze_trends
+INFO:utils.log_manager:ACTION: Analyzing current trends...
+INFO:utils.log_manager:ACTION: Trend analysis complete
+INFO:utils.log_manager:TASK: Completed task: e49fb4b3-4ae8-413e-b5d7-ca58fc658faf with status: completed
+^C
+Shutting down gracefully...
+^C
+Shutting down gracefully...
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<AutonomousAgent.start() done, defined at /Users/mayurchougule/development/ai/eliza/src/agent/autonomous_agent.py:49> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at /Users/mayurchougule/miniconda3/lib/python3.11/asyncio/tasks.py:764]>

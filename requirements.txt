@@ -1,0 +1,13 @@
+tweepy
+openai
+pymongo
+pytest
+pytest-asyncio
+sentence-transformers
+textblob
+pydantic
+python-dotenv
+requests
+rich
+pyyaml
+aiohttp
