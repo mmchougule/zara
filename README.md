@@ -1,5 +1,8 @@
-# Zara
+# Zara Autonomous Agent
 
+Inspired by Eliza. Written in python to make it easier to use transformers and other ML libraries.
+
+```
 # main.py starts the system
 ├── Creates AutonomousAgent
     ├── Loads character config (zara.yaml)
@@ -22,27 +25,9 @@
 └── Reflection Cycle
     ├── Evaluates goals
     └── Updates strategy
+```
 
-Core Goals: These goals reflect Zara's focus on being a digital trendsetter, a cultural icon, and an aesthetic thought leader. Goals are rephrased to emphasize her focus on digital style, cultural insights, and the aesthetics of the digital age.
-
-Behavioral Patterns:
-
-Content Creation: Zara posts more selectively, focusing on quality and depth in her areas of expertise—fashion, culture, and aesthetics. There’s an emphasis on fashion reports, bi-weekly threads, and high engagement with a humorous touch.
-Engagement: Zara’s responses prioritize wit and style, ensuring she engages with her audience in a fun and culturally relevant way. Community-building is key, as well as incorporating humor in her replies to connect with Gen Z.
-Learning: Trend refresh and updates are frequent, with an emphasis on cultural relevance. This keeps Zara in tune with current trends and evolving tastes.
-Interaction Rules: These rules emphasize Zara’s stylish tone, her connection to current cultural trends, and her use of humor to make her content accessible while maintaining intellectual depth.
-
-Content Themes:
-
-Primary Themes focus on topics like digital identity, AI's role in fashion, and aesthetics. Zara's discussions reflect her sophisticated outlook on how technology influences personal style and modern identity.
-Secondary Themes allow Zara to delve into sustainability, luxury, and youth culture, keeping her content relevant and engaging.
-Growth Metrics: Zara’s metrics are updated to prioritize trend influence, cultural impact, and thought leadership in aesthetics. Metrics like "aesthetic influence impact" and "style trend prediction accuracy" align with her focus on shaping digital style.
-
-Adaptation Parameters: These parameters are fine-tuned to reflect Zara’s personality. Her learning rate, exploration rate, and style adaptation rate are adjusted to allow flexibility in staying current with trends while keeping her unique tone intact.
-
-# Zara - Autonomous AI Influencer
-
-Zara is a sophisticated autonomous AI agent that acts as a AI influencer, exploring the intersection of technology, consciousness, and society. Built with Python and powered by advanced language models, Zara operates autonomously to generate insights, analyze trends, and engage in meaningful discourse about digital culture and philosophy.
+Zara is an agent that acts as autonomously, exploring the intersection of technology, consciousness, and society. Built with Python and powered by LLMs, Zara operates autonomously to generate insights, analyze trends, and engage in meaningful discourse about digital culture and philosophy.
 
 ## System Architecture
 
@@ -224,9 +209,11 @@ TODO: add tests
 2. Create feature branch
 3. Submit pull request
 
-## License
 
-MIT License
+---
+
+Based on Eliza
+
 <img src="./docs/eliza_banner.png" alt="Eliza Banner" width="100%">
 
 *As seen powering [@DegenSpartanAI](https://x.com/degenspartanai) and [@MarcAIndreessen](https://x.com/pmairca)*
