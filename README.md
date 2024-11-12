@@ -1,5 +1,7 @@
 # Zara Autonomous Agent
 
+fork of https://github.com/mmchougule/eliza
+
 Inspired by Eliza. Written in python to make it easier to use transformers and other ML libraries.
 
 ```
