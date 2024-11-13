@@ -8,7 +8,7 @@ load_dotenv()
 
 class Settings(BaseSettings):
     # API Configuration
-    mongodb_uri: str = "mongodb+srv://admin:butterflyAT99@cluster0.dojas.mongodb.net/"
+    mongodb_uri: str = "mongodb+srv://cluster0.dojas.mongodb.net/"
     openai_api_key: str
     
     # local api config
